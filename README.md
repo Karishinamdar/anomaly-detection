@@ -1,7 +1,7 @@
 ### anomaly-detection: Use case- active-wildfire-detection
 
 ### Overview
-This is the first layer of anomaly detection on-board satellite with the use case of wildfire detection and coming up many such as 
+This is the initial layer of onboard anomaly detection on a satellite, with the primary use case being wildfire detection. In the future, this technology can be applied to various other scenarios such as flood detection, maritime vessel detection, deforestation, and more. We are in the process of modyfying this architecture further to gain more efficinecy and acccuracy. 
 
 This repository contains a machine learning model for anomaly detection with use case of detecting active wildfires in satellite imagery using a modified UNet architecture. The model is trained on the Landsat-8 satellite dataset, specifically designed for active wildfire detection. This README file provides an overview of the project, instructions for setting up the environment, training the model, and using it for inference.
 
@@ -25,6 +25,7 @@ To use this project, you'll need the following dependencies:
     NumPy
     Matplotlib (for visualization)
     OpenCV (for image processing)
+    Rasterio (for Geotiff images)
     Jupyter Notebook (for running provided examples)
 
 You can install these dependencies using pip:
